@@ -38,7 +38,7 @@ Learn more about [VCS support](https://pip.pypa.io/en/stable/topics/vcs-support/
 
 This is a list of known Zeus model snapshots available for download:
 
-- Latest solo-staff 2026 experiments ([code](https://github.com/Jirka-Mayer/ijdar/releases/tag/model-snapshots)) (CC BY-SA license)
+- Latest solo-staff 2026 experiments ([code](https://github.com/Jirka-Mayer/ijdar/releases/tag/model-snapshots)) (CC BY-NC-SA license)
     - `[2026-08-03]` **`ayce-2026-08-03.model`** ([download](https://github.com/Jirka-Mayer/ijdar/releases/download/model-snapshots/ayce-2026-08-03.model.tar.gz), [url](https://github.com/Jirka-Mayer/ijdar/releases/tag/model-snapshots)) trained on Dolores, OLiMPiC, and OmniOMR
     - `[2026-07-20]` **`zod-bw-auth-ft-2026-07-20.model`** ([download](https://github.com/Jirka-Mayer/ijdar/releases/download/model-snapshots/zod-bw-auth-ft-2026-07-20.model.tar.gz), [url](https://github.com/Jirka-Mayer/ijdar/releases/tag/model-snapshots)) trained on Dolores, finetuned on OmniOMR
     - `[2026-07-13]` **`zod-bw-auth-2026-07-13.model`** ([download](https://github.com/Jirka-Mayer/ijdar/releases/download/model-snapshots/zod-bw-auth-2026-07-13.model.tar.gz), [url](https://github.com/Jirka-Mayer/ijdar/releases/tag/model-snapshots)) trained on Dolores
