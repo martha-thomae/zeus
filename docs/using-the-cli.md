@@ -70,7 +70,7 @@ zeus predict \
     scans/*.jpg
 ```
 
-That is what you want when LMX is what you were after — comparing two models' raw output, feeding a script that reads tokens, or measuring a model against gold LMX by hand. It also skips the decoder entirely, so a prediction that MusicXML conversion would choke on still comes out; see [below](#when-a-staff-cannot-be-read).
+That is what you want when LMX is what you were after — e.g., when comparing two models' raw output, feeding a script that reads tokens, or measuring a model against gold LMX by hand. It also skips the decoder entirely, so a prediction that MusicXML conversion would choke on still comes out; see [below](#when-a-staff-cannot-be-read).
 
 `--no-musicxml` on its own is refused rather than run, since it would load the model, transcribe everything and write nothing:
 
