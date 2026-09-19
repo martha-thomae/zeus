@@ -17,6 +17,11 @@ To set up a venv for Zeus, use this Python executable:
 
 > **Note:** There have been some issues with it recently (July 2026) as machines are being updated to newer Ubuntu. Access it from `lrc1` or other cluster nodes. Ordinary machines in the network may fail with `version GLIBC_2.38 not found` (e.g. `geri` does that).
 
+Using the Python executable mentioned above, the setup of the venv for Zeus would look like:
+```
+/opt/python/3.10.7/bin/python3 -m venv .venv-zeus
+.venv-zeus/bin/pip install 'zeus @ git+https://github.com/OmniOMR/zeus.git@v1.0.0'
+```
 
 ## Suitable GPU machines
 
