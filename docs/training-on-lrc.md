@@ -51,7 +51,7 @@ srun --pty --gpus=1 --mem=32G -p gpu-ms,gpu-troja --constraint="gpuram48G|gpuram
 
 module load cuda/11.8-cudnn8.6
 
-.venv/bin/zeus train \
+.venv-zeus/bin/zeus train \
     ...
 ```
 
